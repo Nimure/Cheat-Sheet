@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;400&display=swap');
+        </style>
+    <title>Web Dev Cheat Sheet</title> 
+    </head>
+        <body>
+            <!-- Header -->
+            <nav class="header">
+                <span class="logo">Web Dev Cheat Sheet</span>
+                <ul>
+                    <li><a href="#HTML">HTML</a></li>
+                    <li><a href="#CSS">CSS</a></li>
+                    <li><a href="#GitHub">GitHub</a></li>
+                </ul>
+            </nav>
+
+            <!-- Cheat Sheet -->
+            <div class="topics">
+                <div class="HTML">
+                    <h2 id="HTML">HTML</h2>
+                      <div class="table_wrapper">
+                        <table>
+                            <thead>
+                              <th colspan="2"><h3>Basic Syntax</h3></th>
+                            </thead>
+                            <tbody class="sample_html">
+                              <td><xmp>
+                                <!DOCTYPE html>
+                                <html>
+                                    <head><title></title></head>
+                                        <body>
+                                            <h1>NAME</h1>
+                                            <p>Welcome to my website!</p>
+                                            <img class="animated-gif" src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif"/>
+                                        </body>
+                                </html>
+                              </xmp></td>
+                              <td><!DOCTYPE html>
+                                <html>
+                                    <head><title></title></head>
+                                        <body>
+                                            <h1>NAME</h1>
+                                            <p>Welcome to my website!</p>
+                                            <img class="animated-gif" src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+                                        </body>
+                                </html></td>
+                            </tbody>
+                        </table>
+                        <table>
+                            <thead>
+                              <th colspan="2"><h3>Tables</h3></th>
+                            </thead>
+                            <tbody class="sample_table">
+                              <td><xmp>
+                                <table>
+                                    <tr>
+                                        <th>Heading 1</th>
+                                        <th>Heading 2</th>
+                                        <th>Heading 3</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Column 1, Row 1</td>
+                                        <td>Column 2, Row 1</td>
+                                        <td>Column 3, Row 1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Column 1, Row 2</td>
+                                        <td>Column 2, Row 2</td>
+                                        <td>Column 3, Row 2</td>
+                                    </tr>
+                                </table>
+                              </xmp></td>
+                              <td><table>
+                                <tr>
+                                    <th>Heading 1</th>
+                                    <th>Heading 2</th>
+                                    <th>Heading 3</th>
+                                </tr>
+                                <tr>
+                                    <td>Column 1, Row 1</td>
+                                    <td>Column 2, Row 1</td>
+                                    <td>Column 3, Row 1</td>
+                                </tr>
+                                <tr>
+                                    <td>Column 1, Row 2</td>
+                                    <td>Column 2, Row 2</td>
+                                    <td>Column 3, Row 2</td>
+                                </tr>
+                            </table></td></td>
+                            </tbody>
+                          </table>
+                          <table>
+                            <thead>
+                              <th colspan="2"><h3>Forms</h3></th>
+                            </thead>
+                            <tbody class="sample_form">
+                              <td><xmp>
+                                <form>
+                                    <label for="fname">First name:</label><br>
+                                    <input type="text" id="fname" name="fname"><br>
+                                    <label for="lname">Last name:</label><br>
+                                    <input type="text" id="lname" name="lname">
+                                </form>
+                              </xmp></td>
+                              <td><form>
+                                <label for="fname">First name:</label><br>
+                                <input type="text" id="fname" name="fname"><br>
+                                <label for="lname">Last name:</label><br>
+                                <input type="text" id="lname" name="lname">
+                              </form></td>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="CSS">
+                    <h2 id="CSS">CSS</h2>
+                    <div class="table_wrapper">
+                        <table>
+                            <thead>
+                              <th colspan="2"><h3>Positioning</h3></th>
+                            </thead>
+                            <tbody class="tbody2">
+                                <tr>
+                                    <td>position: static  | relative | absolute | sticky</td>
+                                    <td>sets element's positioning, along with top, left, bottom, right properties</td>
+                                </tr>
+                                <tr>
+                                    <td>margin 0 auto</td>
+                                    <td>centers in containing block</td>
+                                </tr>
+                                <tr>
+                                    <td>overflow: visible | hidden | scroll | auto | clip | hidden visible</td>
+                                    <td>render outside content-box</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table>
+                            <thead>
+                              <th colspan="2"><h3>Sizing</h3></th>
+                            </thead>
+                            <tbody class="tbody2">
+                                <tr>
+                                    <td>box-sizing: content-box | border-box</td>
+                                    <td>content-box is default</td>
+                                </tr>
+                                <tr>
+                                    <td>height: &lt;px | em | % | keyword&gt;</td>
+                                    <td>height for non-inline elements</td>
+                                </tr>
+                                <tr>
+                                    <td>width: &lt;px | em | % | keyword&gt;</td>
+                                    <td>width for non-inline elements</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="GitHub">
+                    <h2 id="GitHub">GitHub</h2>
+                    <div class="table_wrapper">
+                        <table>
+                            <thead>
+                              <th colspan="2"><h3>Git Cheat Sheet</h3></th>
+                            </thead>
+                            <tbody class="tbody3">
+                                <tr>
+                                    <td>git init</td>
+                                    <td>creates local repository</td>
+                                </tr>
+                                <tr>
+                                    <td>git clone &lt;http | https | ssh | git URL&gt;</td>
+                                    <td>may require authentication</td>
+                                </tr>
+                                <tr>
+                                    <td>git add</td>
+                                    <td>adds, modifies, and removes entries to match working tree</td>
+                                </tr>
+                                <tr>
+                                    <td>git commit -m "Message"</td>
+                                    <td>commits working tree to branch</td>
+                                </tr>
+                                <tr>
+                                    <td>git push</td>
+                                    <td>uploads local commits to remote, requires PAT</td>
+                                </tr>
+                                <tr>
+                                    <td>git status</td>
+                                    <td>Check for correct branch and clean staging area</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </body>
+</html>

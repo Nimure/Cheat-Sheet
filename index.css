@@ -1,0 +1,115 @@
+html {
+    background-color: bisque;
+}
+
+/* Header */
+
+.header {
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10rem;
+    padding: 0 12%;
+    background-color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2em;;
+    background-image: linear-gradient(to bottom right, darkslategray, darkseagreen);
+}
+
+.header li {
+    display: inline;
+    padding: 20px;
+    color: white;
+}
+
+/* CheatSheet */
+
+h2 {
+    color: darkslategray;
+    font-size: 2.5em;;
+}
+
+.topics {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* unvisited link */
+
+a:link {
+    color: white;
+  }
+  
+  /* visited link */
+
+  a:visited {
+    color: honeydew;
+  }
+  
+  /* mouse over link */
+
+  a:hover {
+    color: white;
+  }
+  
+  /* selected link */
+
+  a:active {
+    color: white;
+  }
+
+
+ /* tables */
+
+.table_wrapper {
+        border-radius: 25px;
+        overflow: hidden;
+}
+
+  table {
+    table-layout: fixed;
+    width: 100%;
+  }
+  
+  thead {
+    font-size: 1.5em;
+    text-align: left;
+    text-indent: 2%;
+    color: white;
+    background-color: darkslategray;
+    
+  }
+
+  tbody {
+    background-color: #182828;
+    color: white;
+    font-family: monospace;
+  }
+
+  img.animated-gif{
+    width: 120px;
+    height: auto;
+  }
+
+  .tbody2 {
+    margin: 50px;
+    font-size: 1.5em;
+  }
+
+  .tbody3 {
+    margin: 50px;
+    font-size: 1.5em;
+  }
+
+  .sample_html td {
+    padding: 15px;
+}
+
+  .sample_table td {
+        padding: 15px;
+  }
+
+  .sample_form td {
+    padding: 15px;
+}
